@@ -26,10 +26,6 @@
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.APK1Installer">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <!-- 处理.apk1和.apk.1文件的Activity -->
@@ -149,7 +145,7 @@
             android:name=".MainActivityAlias"
             android:targetActivity=".MainActivity"
             android:exported="true"
-            android:enabled="false">
+            android:enabled="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
