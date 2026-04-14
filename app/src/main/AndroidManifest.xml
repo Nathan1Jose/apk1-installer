@@ -144,6 +144,8 @@
         <activity-alias
             android:name=".MainActivityAlias"
             android:targetActivity=".MainActivity"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher"
             android:exported="true"
             android:enabled="true">
             <intent-filter>
